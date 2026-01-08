@@ -1,0 +1,30 @@
+# Custom 250-Class FPV Racing Drone
+
+This repository documents the build, configuration of a custom-built 250-class FPV quadcopter. The project focuses on a durable carbon fiber frame design paired with reliable, high-performance components.
+
+## 🚁 Project Overview
+
+This drone is built on a ZMR250-style carbon fiber frame, designed for stability and durability. It utilizes EMAX cooling series motors and BLHeli-based ESCs for responsive throttle control. The power distribution is handled by Matek Systems components to ensure clean power delivery to sensitive electronics.
+
+
+### Frame & Propulsion
+*   **Frame:** 250mm Carbon Fiber X-Frame (ZMR250 style) with red anodized standoffs.
+*   **Motors:** 4x EMAX MT2204 2300KV (Cooling Series).
+*   **ESCs:** EMAX BLHeli Series 12A (Supports OneShot125).
+*   **Propellers:** 5030 / 5040 Orange & Black props (CW/CCW).
+
+### Electronics & Power
+*   **Flight Controller:** Naze32 / CC3D (standard 30.5mm mounting).
+*   **PDB:** Matek Systems Mini Power Hub (w/ BEC 5V & 12V).
+*   **Auxiliary:** Matek 5-in-1 LED & Power Hub (includes Low Voltage Alarm & Buzzer).
+*   **Battery Connector:** XT60.
+
+### FPV System (Optional/Planned)
+*   *Camera:* Board camera mount available on frame.
+*   *VTX:* 5.8GHz Video Transmitter.
+
+## ⚙️ Configuration
+
+*   **Firmware:** Betaflight / Cleanflight
+*   **ESC Protocol:** PWM / OneShot125
+*   **PID Tuning:** Standard 250-size PID controller settings.
